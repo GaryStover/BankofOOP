@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+
+
 //Program by Gary Stover. Code referenced and used from Murachs C# 2015, https://stackoverflow.com/, Essential C# 7.0 Sixth Edition, https://learning.oreilly.com/, https://docs.microsoft.com/en-us/dotnet/csharp/
+
+
 namespace BankofOOP
 {
     class Program
@@ -30,7 +34,7 @@ namespace BankofOOP
                 {
                     case 'L':
                         {
-                            Console.WriteLine("Eenter a Username:");
+                            Console.WriteLine("Enter a Username:");
                             string userName = (Console.ReadLine()).ToLower();
                             Console.WriteLine("Enter a Password:");
                             string password = Console.ReadLine();
